@@ -39,7 +39,11 @@ Ensure you have docker installed on your machine. Then run the following command
 Then run ./make_prediction in a second terminal window.
 
 # Running Via Kubernetes
-Ensure you have docker installed on your machine. Then run the following command
+Ensure you have docker installed on your machine. 
+Start minikube
+`minikube start --force --memory=1500mb`
+I used --memory=1500 because the app was run on a machine with 2gig memory
+Then run the following command
 
 ```
 ./run_kubernetes
