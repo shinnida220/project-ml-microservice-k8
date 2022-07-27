@@ -1,1 +1,18 @@
-<paste log output from Kubernetes-mediated prediction, here>
+.devops) root@ubuntu-s-2vcpu-2gb-nyc1-01:~/cloud9-env/main-repo/DevOps_Micr
+roservices/Supporting-material/project-mi-microservice-k8# ./run_kubernetes.sh 
+pod/prediction-app created
+deployment.apps/python-prediction created
+pod/prediction-app condition met
+NAMESPACE     NAME                                READY   STATUS    RESTARTS      AGE
+default       prediction-app                      1/1     Running   0             28s
+default       python-prediction-b7c47f947-7tcml   1/1     Running   0             28s
+kube-system   coredns-6d4b75cb6d-7s8qs            1/1     Running   2 (27m ago)   109m
+kube-system   etcd-minikube                       1/1     Running   2 (27m ago)   109m
+kube-system   kube-apiserver-minikube             1/1     Running   2 (27m ago)   109m
+kube-system   kube-controller-manager-minikube    1/1     Running   2 (27m ago)   109m
+kube-system   kube-proxy-jdjcq                    1/1     Running   2 (27m ago)   109m
+kube-system   kube-scheduler-minikube             1/1     Running   2 (27m ago)   109m
+kube-system   storage-provisioner                 1/1     Running   5 (91s ago)   109m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
